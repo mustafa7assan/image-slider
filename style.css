@@ -31,6 +31,8 @@ body {
   flex: 2;
   background-color: aqua;
   overflow: hidden;
+  border-radius: 5px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 .carousel-image img {
   width: 100%;
@@ -43,6 +45,7 @@ body {
   align-items: center;
   justify-content: center;
 }
+
 .control {
   position: absolute;
   bottom: 50px;
@@ -57,4 +60,7 @@ body {
   border: none;
   outline: none;
   cursor: pointer;
+}
+.active {
+  background-color: #777 !important;
 }
