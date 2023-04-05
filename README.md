@@ -11,7 +11,7 @@ This is a simple image carousel that allows the user to navigate between three i
 ## Features
 
 - Navigation controls for each image
-- Automatic image rotation every 2 seconds
+- Automatic image rotation every 5 seconds
 - Smooth transitions between images
 
 ## Installation
